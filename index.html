@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vikram Neerukonda - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav id="desktop-nav">
+        <div class="logo">Vikram Neerukonda</div>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Vikram Neerukonda</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+            <li>
+              <a href="#certificates" onclick="toggleMenu()">Certificates</a>
+            </li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="landing">
+      <div class="landing-container">
+        <div class="section__pic-container">
+          <img src="./assets/dp.jpg" alt="Vikram Neerukonda profile picture" />
+        </div>
+        <div class="section__text">
+          <h1 class="title">Vikram Neerukonda</h1>
+          <p class="section__text__p2"></p>
+
+          <div class="text-container">
+            <p>
+              I'm a passionate Computer Science and Engineering student at
+              Lovely Professional University. I have strong skills in C++,
+              Python, and JavaScript, with experience in HTML, CSS, and MySQL. I
+              excel in team work and time management, and I'm always eager to
+              learn and grow in the field of software development.
+            </p>
+          </div>
+
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/Generalized CV.pdf')"
+            >
+              Download CV
+            </button>
+            <button
+              class="btn btn-color-1"
+              onclick="location.href='./#contact'"
+            >
+              Contact Me
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/in/vikram-neerukonda'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/vikramneeru66'"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <center><p class="section__text__p1">Explore My</p></center>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="skills-grid">
+              <!-- Technical Skills -->
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="90">
+                    <i class="fa-brands fa-html5"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="85">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="80">
+                    <i class="fa-brands fa-js"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="85">
+                    <i class="fa-brands fa-python"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>Python</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="80">
+                    <i class="fa-solid fa-database"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>MySQL</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="80">
+                    <i class="fa-solid fa-code"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>C++</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="70">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>Figma</span>
+              </div>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Non-Technical Skills</h2>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="90">
+                    <i class="fa-solid fa-users"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>Teamwork</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="85">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>Problem Solving</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="80">
+                    <i class="fa-solid fa-comments"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>Communication</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="85">
+                    <i class="fa-solid fa-tasks"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>Project Management</span>
+              </div>
+              <div class="skill-item">
+                <div class="skill-progress">
+                  <div class="progress-circle" data-percentage="95">
+                    <i class="fa-solid fa-book"></i>
+                    <svg class="progress-ring" width="80" height="80">
+                      <circle class="progress-ring-bg" cx="40" cy="40" r="35" />
+                      <circle
+                        class="progress-ring-circle"
+                        cx="40"
+                        cy="40"
+                        r="35"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <span>Continuous Learning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <center><p class="section__text__p1">Browse My Recent</p></center>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.jpg"
+                alt="Secure Aadhaar Voting System"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Secure Aadhaar Voting System
+            </h2>
+            <p class="project-description">
+              Engineered a secure and automated voting system using Aadhaar
+              authentication, improving election transparency. Reduced voter
+              verification time from 10 minutes to just 2 minutes per voter
+              using HTML, CSS, JavaScript, MySQL, and Google Cloud.
+            </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.jpg"
+                alt="Sudoku Solver"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Travel App Design
+            </h2>
+            <p class="project-description">
+              Enhanced a user-friendly and visually appealing travel website
+              using Figma. Created low-fidelity wireframes, high-fidelity UI
+              designs, and an interactive prototype for seamless user
+              experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h1 class="title">Education</h1>
+      <div class="education-details-container">
+        <div class="education-container">
+          <div class="education-item">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="education-content">
+              <h3>Bachelor of Technology - Computer Science and Engineering</h3>
+              <h4>Lovely Professional University, Punjab, India</h4>
+              <p>
+                <i class="fas fa-star"></i> CGPA: 6.0 |
+                <i class="fas fa-calendar-alt"></i> Since Aug 2022
+              </p>
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-icon">
+              <i class="fas fa-school"></i>
+            </div>
+            <div class="education-content">
+              <h3>Intermediate</h3>
+              <h4>Narayana Junior College, Rajahmundry, Andhra Pradesh</h4>
+              <p>
+                <i class="fas fa-star"></i> Percentage: 79% |
+                <i class="fas fa-calendar-alt"></i> Jan 2021 - Jun 2022
+              </p>
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <div class="education-content">
+              <h3>Matriculation</h3>
+              <h4>D.A.V Public School, Kovvur, Andhra Pradesh</h4>
+              <p>
+                <i class="fas fa-star"></i> Percentage: 80% |
+                <i class="fas fa-calendar-alt"></i> Apr 2016 - Jul 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates">
+      <center><p class="section__text__p1">My Professional</p></center>
+      <h1 class="title">Certificates</h1>
+      <div class="certificates-details-container">
+        <div class="certificates-container">
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <div class="certificate-content">
+              <h3>Salesforce Developer</h3>
+              <h4><i class="fas fa-building"></i> Trailblazer</h4>
+              <p><i class="fas fa-calendar-alt"></i> Jan 2025</p>
+            </div>
+          </div>
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="certificate-content">
+              <h3>UI/UX Fellowship</h3>
+              <h4>
+                <i class="fas fa-building"></i> Data Structure and Algorithm
+              </h4>
+              <p><i class="fas fa-calendar-alt"></i> Mar 2025</p>
+            </div>
+          </div>
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="certificate-content">
+              <h3>Digital Forensics Essentials</h3>
+              <h4><i class="fas fa-building"></i> Coursera</h4>
+              <p><i class="fas fa-calendar-alt"></i> Nov 2024</p>
+            </div>
+          </div>
+          <!-- Add these certificates to your Certificates section -->
+          <div class="certificate-item">
+            <div class="certificate-icon">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <div class="certificate-content">
+              <h3>Cloud Computing</h3>
+              <h4><i class="fas fa-building"></i> NPTEL</h4>
+              <p><i class="fas fa-calendar-alt"></i> Oct 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="certificate-modal" class="certificate-modal">
+      <div class="certificate-modal-content">
+        <div class="certificate-modal-header">
+          <span class="certificate-modal-close">&times;</span>
+          <h3 id="certificate-modal-title">Certificate</h3>
+        </div>
+        <div class="certificate-modal-body">
+          <img
+            id="certificate-modal-img"
+            src="./assets/boardinfinity.png"
+            alt="Certificate"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section id="achievements">
+      <p class="section__text__p1">My Recent</p>
+      <h1 class="title">Achievements</h1>
+      <div class="achievements-details-container">
+        <div class="achievement-item">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Hack-Verse Hackathon Finalist</h3>
+            <p>
+              Among 1k+ participants, my team and I qualified for the finals of
+              the Hack-Verse Hackathon.
+            </p>
+            <span class="achievement-date">2024</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <center><p class="section__text__p1">Get in Touch</p></center>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-form-container">
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <i class="fas fa-phone"></i>
+            <p><a href="tel:+918978987389">+91-8688709794</a></p>
+          </div>
+          <div class="contact-info-item">
+            <i class="fab fa-linkedin"></i>
+            <p>
+              <a href="https://www.linkedin.com/in/vikram-neerukonda"
+                >LinkedIn</a
+              >
+            </p>
+          </div>
+          <div class="contact-info-item">
+            <i class="fab fa-github"></i>
+            <p><a href="https://github.com/vikramneeru66">GitHub</a></p>
+          </div>
+        </div>
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/xwpoebay"
+          method="POST"
+        >
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input type="text" name="subject" placeholder="Subject" required />
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-color-1">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &#169; 2025 Vikram Neerukonda. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        const menu = document.querySelector(".menu-links");
+        const icon = document.querySelector(".hamburger-icon");
+        menu.classList.toggle("open");
+        icon.classList.toggle("open");
+      }
+
+      // Certificate Modal Functionality
+      document.addEventListener("DOMContentLoaded", function () {
+        const certificateViews = document.querySelectorAll(".certificate-view");
+        const modal = document.getElementById("certificate-modal");
+        const modalImg = document.getElementById("certificate-modal-img");
+        const modalTitle = document.getElementById("certificate-modal-title");
+        const closeBtn = document.querySelector(".certificate-modal-close");
+
+        // Certificate data
+        const certificates = {
+          "dsa-cert": {
+            src: "./assets/boardinfinity.png",
+            title: "Data Structures and Algorithms",
+          },
+          "php-cert": {
+            src: "./assets/php.png",
+            title: "Building Web Applications in PHP",
+          },
+
+          "mern-cert": {
+            src: "./assets/cipher.png",
+            title: "Mern Stack",
+          },
+        };
+
+        // Open modal when eye icon is clicked
+        certificateViews.forEach((view) => {
+          view.addEventListener("click", function () {
+            const img = this.querySelector(".certificate-img");
+            const certKey = img.getAttribute("data-certificate");
+            const certData = certificates[certKey];
+
+            modalImg.src = certData.src;
+            modalTitle.textContent = certData.title;
+
+            modal.classList.add("show");
+            document.body.style.overflow = "hidden"; // Prevent scrolling
+
+            // Add animation class
+            setTimeout(() => {
+              modal
+                .querySelector(".certificate-modal-content")
+                .classList.add("animate");
+            }, 10);
+          });
+        });
+
+        // Close modal when X is clicked
+        closeBtn.addEventListener("click", closeModal);
+
+        // Close modal when clicking outside the image
+        modal.addEventListener("click", function (e) {
+          if (e.target === modal) {
+            closeModal();
+          }
+        });
+
+        // Close modal with ESC key
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape" && modal.classList.contains("show")) {
+            closeModal();
+          }
+        });
+
+        function closeModal() {
+          modal
+            .querySelector(".certificate-modal-content")
+            .classList.remove("animate");
+          setTimeout(() => {
+            modal.classList.remove("show");
+            document.body.style.overflow = "auto"; // Re-enable scrolling
+          }, 300);
+        }
+      });
+      // Add this to your existing script section at the bottom of your HTML file
+      document.addEventListener("DOMContentLoaded", function () {
+        const progressCircles = document.querySelectorAll(".progress-circle");
+
+        progressCircles.forEach(function (circle) {
+          // Get the percentage value from data attribute
+          const percentage = parseInt(circle.getAttribute("data-percentage"));
+
+          // Get the SVG circle element
+          const svgCircle = circle.querySelector(".progress-ring-circle");
+
+          // Calculate the radius from the circle's r attribute
+          const radius = svgCircle.getAttribute("r");
+
+          // Calculate the circumference
+          const circumference = 2 * Math.PI * radius;
+
+          // Calculate the dash offset based on percentage
+          const dashOffset = circumference * (1 - percentage / 100);
+
+          // Set the stroke dasharray to the circumference
+          svgCircle.style.strokeDasharray = circumference;
+
+          // Set the stroke dashoffset to show only the percentage amount
+          svgCircle.style.strokeDashoffset = dashOffset;
+
+          // Add animation to fill the circle
+          setTimeout(() => {
+            svgCircle.style.transition = "stroke-dashoffset 1.5s ease-in-out";
+            svgCircle.style.strokeDashoffset = dashOffset;
+          }, 300);
+        });
+      });
+    </script>
+  </body>
+</html>
