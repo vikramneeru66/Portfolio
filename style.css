@@ -11,7 +11,7 @@
 /* Custom Cursor Styles */
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #fafafa;
+  background-color: grey;
   cursor: auto; /* Change to auto to make default cursor visible */
 }
 
